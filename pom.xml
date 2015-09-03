@@ -39,7 +39,7 @@
                     <transformationSets>
                         <transformationSet>
                             <dir>src/main/xml</dir>
-                            <stylesheet>/home/fabian/code/java/xslt-maven-test/src/main/xslt.xsl</stylesheet>
+                            <stylesheet>${basedir}/src/main/xslt.xsl</stylesheet>
                         </transformationSet>
                     </transformationSets>
                 </configuration>
